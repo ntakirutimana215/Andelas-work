@@ -1,0 +1,115 @@
+
+      * {
+        margin: 0;
+        padding: 0%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      body {
+        background: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .bg {
+        width: 50%;
+      }
+      .bg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+      }
+      .container {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 40%;
+        background-color: white;
+      }
+
+      .container-label h3 {
+        font-size: 32px;
+        color: rgb(41, 40, 40);
+      }
+      .container-label h5 {
+        color: gray;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .container-label a {
+        text-decoration: none;
+        display: flex;
+        padding: 4px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        align-content: center;
+        justify-content: center;
+        color: gray;
+      }
+      .container-label a:first-of-type {
+        border: 2px solid gray;
+        font-weight: bold;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+        text-transform: capitalize;
+      }
+      form p {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: gray;
+      }
+      input {
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        font-size: 20px;
+      }
+      .forget {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .forget a {
+        font-weight: bold;
+        color: #7f265b;
+      }
+
+      #remember:checked {
+        color: #7f265b;
+        background-color: #7f265b;
+      }
+
+      form button {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #7f265b;
+        color: white;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+      .new {
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        box-sizing: 10px;
+      }
+      .new a {
+        color: #7f265b;
+        font-weight: bold;
+      }
+    
